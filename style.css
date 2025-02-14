@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 390px;
+    height: 844px;
+    background-color: #A73F5C;
+}
+.cabecalho{
+    height: 160px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+}
+.cabecalho img{
+    width: 128px;
+    height: 128px;
+    margin-left: 40px;
+    margin-top: 16px;
+}
+.cabecalho h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: black;
+    width: 139px;
+    height: 87px;
+    margin-top: 37px;
+    text-align: center;
+}
+.cabecalho .vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
